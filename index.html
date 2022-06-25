@@ -6,7 +6,20 @@
   <title>Landing Page</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+<style>
+  @media screen and (min-width: 768px) {
+    #video-section {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
 
+    video {
+        display: block;
+    }
+
+}
+</style>
 <body>
   <header id="header">
     <div class="logo">
@@ -16,9 +29,9 @@
     <nav id="nav-bar">
 
       <ul class="nav-elements">
-        <li class="nav-link" href="#video"><a>Home</a></li>
-        <li class="nav-link" href="#product-description"><a>About</a></li>
-        <li class="nav-link" href="#form"><a>Contact</a></li>
+        <li><a class="nav-link"href="#product-details">Home</a></li>
+        <li><a class="nav-link" href="#video-section">About</a></li>
+        <li><a class="nav-link" href="#form-section">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -34,14 +47,17 @@
     </video>
   </section>
 
-  <section class="form-wrapper">
+  <section class="form-wrapper" id="form-section">
     <h1>Form</h1>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input id="email" type="email" placeholder="email">
+      <input id="email" type="email" placeholder="email" name="email">
       <input type="submit" id="submit" value="Send">
     </form>
   </section>
 
+  <div id="footer-section">
+
+  </div>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
   <script src="js/index.js"></script>

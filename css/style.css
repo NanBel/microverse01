@@ -28,11 +28,11 @@
     justify-content: end;
 }
 
-.nav-link {
+li{
     list-style: none;
 }
 
-.nav-link a {
+a {
     padding: 15px;
     text-decoration: none;
     color: #303030;
@@ -93,7 +93,7 @@
     background-color: #303030;
     color: #fff;
 }
-
+/*
 @media screen and (min-width: 768px) {
     #video-section {
         padding: 10px;
@@ -105,4 +105,4 @@
         display: block;
     }
 
-}
+}*/
