@@ -43,3 +43,17 @@
 .logo img {
     width: 40px;
 }
+
+@media screen and (min-width: 768px) {
+    #video-section {
+        border: 1px solid red;
+        padding: 10px;
+        display: flex;
+
+    }
+
+    video {
+        display: block;
+    }
+
+}
