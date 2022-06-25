@@ -39,17 +39,66 @@
     font-size: 16px;
 }
 
+#video-section {
+    margin-top: 10px;
+}
 
 .logo img {
     width: 40px;
 }
 
+#product-details {
+    margin: 60px;
+}
+
+#product-details h2 {
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#product-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 160%;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-wrapper input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-wrapper input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #303030;
+    color: #fff;
+}
+
 @media screen and (min-width: 768px) {
     #video-section {
-        border: 1px solid red;
         padding: 10px;
         display: flex;
-
+        justify-content: center;
     }
 
     video {
